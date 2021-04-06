@@ -1,29 +1,41 @@
-/* Global Style */
-* {
+/* Global Styles */
+body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-    
-/* Topographyical */
-ul {
-    list-style-type: none;
-
-}
-
-li {
-    float: left;
-}
-
-li a {
-    
-    color:black;
-    
+    font-size: 18px; /*default font size */
+    font-family: Arial;
 }
 
 
+/* Typography */
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    background-color: #cc00cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px; 
+}
 
 
 
 
 /* Layout */
+header {
+    background-color:#ff00ff;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+
+}
