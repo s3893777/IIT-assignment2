@@ -8,21 +8,24 @@
   <body>
       <nav>
         <p>Team Awesome Force</p>
-        <ul>
-          <li><a href="index.html">Team Profile</a></li>
-          <li><a href="tools.html">Tools</a></li>
-          <li><a href="industrydata.html">Industry Data</a></li>
-          <li><a href="itwork.html">IT Work</a></li>
-          <li><a href="#">IT Technology</a>
-            <ul>
-              <li><a href="#">Placeholder 1</a></li>
-              <li><a href="#">Placeholder 2</a></li>
-              <li><a href="#">Placeholder 3</a></li>
-              <li><a href="#">Placeholder 4</a></li>
-            </ul>
-          </li>
-          <li><a href="projectids.html">Project Ideas</a></li>
-        </ul>
+        <div class="navbar">
+          <a href="index.html">Team Profile</a>
+          <a href="tools.html">Tools</a>
+          <a href="industrydata.html">Industry Data</a>
+          <a href="itwork.html">IT Work</a>
+          <div class="dropdown">
+            <button class="dropbtn">IT Technology
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Placeholder 1</a>
+              <a href="#">Placeholder 2</a>
+              <a href="#">Placeholder 3</a>
+              <a href="#">Placeholder 4</a>
+            </div>            
+          </div>
+          <a href="projectids.html">Project Ideas</a>
+        </div>
       </nav>
   
 
