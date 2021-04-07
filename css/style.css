@@ -97,6 +97,7 @@ nav ul li ul li a:hover {
 }
 
 .column {
-  padding: 20px;
+  margin: 0 10px;
   width: 50%;
+  
 }
