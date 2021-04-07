@@ -94,10 +94,11 @@ nav ul li ul li a:hover {
 
 .columns {
   display: flex;
+  gap: 5px;
+  
 }
 
 .column {
   margin: 0 10px;
-  width: 50%;
-  
+  width: 50%; 
 }
