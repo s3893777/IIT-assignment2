@@ -85,11 +85,21 @@ li.dropdown {
 
 .columns {
   display: flex;
-  gap: 5px;
+  flex-direction: row;
   
 }
 
-.column {
-  margin: 0 10px;
-  width: 50%; 
+.column-left {
+  width: 50%;
+  height: 50vh;
+  margin: 10px;
+  padding: 10px;
+  box-shadow:4px 4px 4px 4px #A2CEFF;
+}
+
+.column-right {
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  
 }
