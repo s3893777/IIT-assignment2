@@ -20,6 +20,10 @@ padding: 20px 10px;
 margin: 0;
 }
 
+h4 {
+  font-size: 12px;
+}
+
 
 
 /* Layout - navigation*/
@@ -83,13 +87,19 @@ margin: 0;
   display: block;
 }
 
-/* columns */
-.our-profile {
-padding: 0 5px;
+/* main */
+.main-content {
+padding: 10px 5px;
 text-align: center;
-padding-bottom: 80px;
 }
 
+.references {
+padding: 10px 5px;
+padding-bottom: 80px;
+font-size: 10px;
+}
+
+/* columns */
 .columns {
 display: flex;
 flex-direction: row;
