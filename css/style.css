@@ -80,6 +80,7 @@ display: block;
 .our-profile {
 padding: 0 5px;
 text-align: center;
+padding-bottom: 80px;
 }
 
 .columns {
@@ -101,8 +102,12 @@ padding: 40px;
 }
 
 /* Footer */
-footer {
-background-color: #0066cc;
-height: 60px;
-
+.footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/ 
+  height: 40px;
+  background: #0066cc;
 }
