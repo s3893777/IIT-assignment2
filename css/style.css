@@ -99,6 +99,14 @@ padding-bottom: 80px;
 font-size: 10px;
 }
 
+.main-content-section{
+  margin: 10px;
+  padding: 40px;
+  box-shadow:4px 4px 4px 4px #f2f8ff;
+  text-align: left;
+}
+
+
 /* columns */
 .columns {
 display: flex;
