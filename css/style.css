@@ -110,6 +110,7 @@ h4 {
   text-align: left;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 
@@ -118,14 +119,12 @@ h4 {
   padding: 40px;
   box-shadow:4px 4px 4px 4px #f2f8ff;
   text-align: left;
-  
 }
 
 .profile-section a{
   text-decoration: none;
   color: black;
 }
-
 
 
 .references {
@@ -135,7 +134,7 @@ h4 {
   clear: both;
 }
 
-.profile-image {
+#profileimage {
   float: left;
   padding-right: 20px;
 }
