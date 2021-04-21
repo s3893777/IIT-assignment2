@@ -12,6 +12,7 @@ h1 {
 font-size: 40px;
 padding: 20px 10px;
 margin: 0;
+text-align: center;
 }
 
 h2 {
@@ -94,20 +95,21 @@ h4 {
 /* main */
   .main-content {
   padding: 10px 40px;
+  text-align: center;
 }
 
 .main-content-section {
-  margin: 30px 20px;
-  padding: 40px;
- 
-
+  padding: 20px 40px;
+  text-align: left;
 }
+
 
 .main-profile {
   margin: 30px 20px;
   padding: 40px;
   text-align: left;
   display: flex;
+  flex-wrap: wrap;
 }
 
 
@@ -116,7 +118,7 @@ h4 {
   padding: 40px;
   box-shadow:4px 4px 4px 4px #f2f8ff;
   text-align: left;
-  flex-wrap: wrap;
+  
 }
 
 .profile-section a{
@@ -131,6 +133,11 @@ h4 {
   padding-bottom: 80px;
   font-size: 10px;
   clear: both;
+}
+
+.profile-image {
+  float: left;
+  padding-right: 20px;
 }
 
 /* Footer */
