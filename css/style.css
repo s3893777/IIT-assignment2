@@ -153,6 +153,25 @@ h4 {
   padding: 20px;
 }
 
+#ml {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+figure {
+  float: center;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Footer */
 .footer {
   position: fixed;
